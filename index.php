@@ -8,7 +8,7 @@ if(isset($_GET['ville']) && !empty($_GET['ville'])) {
     $currentCity = $_GET['ville'];
 }
 
-
+$test;
 
 
 ?>
