@@ -1,0 +1,55 @@
+/* ----------------------------------------------------------------------
+styles qui s'appliquent de manière globale
+--------------------------------------------------------------------- */
+
+html * {
+    font-family: 'Montserrat';
+}
+
+/* ----------------------------------------------------------------------
+styles du header
+--------------------------------------------------------------------- */
+
+header {
+    height: 15vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ----------------------------------------------------------------------
+styles qui s'appliquent à la section principale
+--------------------------------------------------------------------- */
+
+section {
+    height: 85vh;
+}
+
+.row {
+    margin-top: 5vh;
+}
+
+.col {
+    height: 30vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    background-color: rgba(211, 211, 211, 0.2);
+    box-shadow: 10px 5px 5px rgba(211, 211, 211, 0.5);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first {
+    height: 15vh;
+    margin-bottom: 5vh;
+}
+
+select {
+    width: 20vw;
+}
